@@ -1,5 +1,6 @@
  /*! =======================================================
  * easing.js v0.5.0
+ * A generic set of easing functions for multiple libraries.
  * https://github.com/danro/easing-js
  * This code may be freely distributed under the MIT license
  * http://danro.mit-license.org/
@@ -193,15 +194,11 @@
   // provide easings to available libraries
   
   !function (jQuery) {
-    if (jQuery) {
-      jQuery.extend(jQuery.easing, easings);
-    }
+    if (jQuery) jQuery.extend(jQuery.easing, easings);
   }(win.jQuery);
   
   !function (morpheus) {
-    if (morpheus) {
-      morpheus.easings = easings;
-    }
+    if (morpheus) morpheus.easings = easings;
   }(win.morpheus);
   
 }(this);
