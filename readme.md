@@ -2,8 +2,8 @@
 
 Generic set of easing functions with AMD support. Examples:
 
-  * [Morpheus](https://github.com/ded/morpheus) `morpheus.easings = require('easings');`
-  * [jQuery](http://jquery.com) `$.extend($.easing, window.easings);`
+  * [Morpheus](https://github.com/ded/morpheus) `morpheus.easings = require('easing');`
+  * [jQuery](http://jquery.com) `$.extend($.easing, window.easing);`
 
 
 ## Easing Shortcuts

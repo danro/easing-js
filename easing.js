@@ -14,7 +14,7 @@
 	if (typeof define == 'function') define(definition);
 	else if (typeof module != 'undefined') module.exports = definition;
 	else this[name] = definition;
-}('easings', {
+}('easing', {
 	easeInQuad: function(pos) {
 		return Math.pow(pos, 2);
 	},
