@@ -1,9 +1,9 @@
 # easing.js
 
-A generic set of easing functions, compatible with the following libraries:
+Generic set of easing functions with AMD support. Examples:
 
-  * [Morpheus](https://github.com/ded/morpheus) `morpheus.easings`
-  * [jQuery](http://jquery.com) `jQuery.easing`
+  * [Morpheus](https://github.com/ded/morpheus) `morpheus.easings = require('easings');`
+  * [jQuery](http://jquery.com) `$.extend($.easing, window.easings);`
 
 
 ## Easing Shortcuts
