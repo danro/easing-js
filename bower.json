@@ -1,0 +1,19 @@
+{
+  "name": "easing",
+  "version": "0.5.4",
+  "description": "Generic set of easing functions with AMD support",
+  "authors": [
+    "Dan Rogers <dan@danro.net>"
+  ],
+  "license": "MIT",
+  "keywords": ["animation", "easing", "tween"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danro/easing-js.git"
+  },
+  "ignore": [
+    "node_modules"
+  ],
+  "dependencies": {
+  }
+}
