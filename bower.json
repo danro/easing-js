@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git://github.com/danro/easing-js.git"
   },
+  "main": [
+    "./**/*"
+  ],
   "ignore": [
     "node_modules"
   ],
